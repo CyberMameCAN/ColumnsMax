@@ -1,20 +1,16 @@
-# Pygameを使ってゲームを作ってみたい
+# Columns MAXを作ってみたい
 
-Pythonでゲーム作成をするための記録です。Macにあった過去のゲームで
-[Columns Max](https://www.macintoshrepository.org/3260-columns-max)のクローンを作れるようになりたいと思っています。
-
-## 参照
-
-- [90 分でわかる Pygame - 初心者向け](https://www.youtube.com/watch?v=jO6qQDNa2UY)
-
-こちらをハンズオンした記録になります。  
-使っている音楽や画像素材などは動画を参照してください。
+Pythonでゲーム作成をするための記録です。  
+68kだったかPowerPCの時代だったか忘れましたが、Mac用のゲームアプリケーションで
+[Columns Max](https://www.macintoshrepository.org/3260-columns-max)のようなものを作れるようになりたいと思っていたのですが、
+ChatGPTに助けてもらい、Pygameを使えば、なんとか遊べるようなものを作ることができました。
 
 
 ## 動かし方
 
-    poetry run python main.py
+    .venv/bin/python main.py
 
-## Pythonのバージョン
+## 実行環境など
 
-    python 3.10.13
+- パッケージ管理をpoetryからuvに変更
+- python 3.10.13
